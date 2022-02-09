@@ -6,4 +6,6 @@
  * Troque "{}" pelo nome dado a função
  */
 
-export default {};
+const f = (x, y) => Number(x) + Number(y);
+
+export default f;

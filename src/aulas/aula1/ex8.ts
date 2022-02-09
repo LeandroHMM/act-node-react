@@ -11,4 +11,14 @@
 
 // code here
 
-export default {};
+function isTriangle(a: number, b: number, c: number): boolean {
+  const triangleA = Math.abs(b - c) < a && a < b + c;
+  const triangleB = Math.abs(a - c) < b && b < a + c;
+  const triangleC = Math.abs(a - b) < c && c < a + b;
+
+  return triangleA;
+  return triangleB;
+  return triangleC;
+}
+
+export default isTriangle;

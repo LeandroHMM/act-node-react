@@ -10,4 +10,5 @@
  *
  */
 
-export default {};
+const boolean = false;
+export default boolean;

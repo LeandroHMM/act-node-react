@@ -10,4 +10,5 @@
  *
  */
 
-export default {};
+const nome = "Leandro";
+export default nome;
